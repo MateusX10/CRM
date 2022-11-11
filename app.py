@@ -4,9 +4,14 @@ from flask import render_template
 app = Flask(__name__)
 
 
+
 @app.route("/")
-def homepage():
+def pagina_inicial():
     return render_template("index.html")
+
+@app.route("/funil")
+def homepage():
+    return render_template("funil_vendas.html")
 
 @app.route("/contato_aluno")
 def funil():
@@ -27,6 +32,19 @@ def entrar():
 @app.route("/cadastrar")
 def cadastrar():
     return render_template("cadastrar.html")
+
+@app.route("/codigo recuperacao")
+def codigo():
+    return render_template("codigo_recuperacao.html")
+
+@app.route("/redefinir senha")
+def redefinir():
+    return render_template("recuperar_senha.html")
+
+@app.route("/sucesso")
+def sucesso():
+    return render_template("sucesso_cadastro.html")
+
 
 
 

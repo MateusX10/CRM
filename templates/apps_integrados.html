@@ -13,21 +13,15 @@
             width: auto;
             height: auto;
         }
-        .botao-cadastrar{
-            position:absolute;border:1px solid #25692A;
-            border-radius:4px;
-            display:inline-block;
-            cursor:pointer;
-            font-family:Verdana;
-            font-weight:bold;
-            font-size:13px;
-            text-decoration:none;
-            top: 4px;
-            right: 5px;
+
+        .foto_perfil{
+            max-width: 50px;
+            max-height: 45px;
+            width: auto;
+            height: auto;
         }
 
-        .botao-entrar{
-            position:absolute;
+        .abrir{
             border:1px solid #25692A;
             border-radius:4px;
             display:inline-block;
@@ -35,10 +29,10 @@
             font-family:Verdana;
             font-weight:bold;
             font-size:13px;
+            padding:6px 10px;
             text-decoration:none;
-            top: 4px;
-            right: 86px;
         }
+
 
         .logo{
             position: absolute;
@@ -48,22 +42,46 @@
 
         .back{
             position: absolute;
+            border: 1px;
+            border-radius: 4px;
+            display: inline-block;
+            cursor: pointer;
+            font-family: Verdana;
+            font-weight: bold;
+            font-size: 13px;
+            text-decoration: none;
             top: 1px;
-            left: 300px;
+            left: 370px;
         }
+
 
         .contatos{
             position: absolute;
+            border: 1px;
+            border-radius: 4px;
+            display: inline-block;
+            cursor: pointer;
+            font-family: Verdana;
+            font-weight: bold;
+            font-size: 13px;
+            text-decoration: none;
             top: 1px;
-            left: 350px;
+            left: 435px;
         }
 
         .apps_integrados{
             position: absolute;
+            border: 1px;
+            border-radius: 4px;
+            display: inline-block;
+            cursor: pointer;
+            font-family: Verdana;
+            font-weight: bold;
+            font-size: 13px;
+            text-decoration: none;
             top: 1px;
-            left: 420px;
+            left: 515px;
         }
-
 
     </style>
 </head>
@@ -74,31 +92,25 @@
     </div>
 
     <div class="back">
-        <a href="/"><button>home</button></a>
+        <a class="abrir" href="/funil">home</a>
     </div>
 
     <div class="contatos">
-        <a href="/contatos"><button>contatos</button></a>
+        <a class="abrir" href="/contatos">contatos</a>
     </div>
 
     <div class="apps_integrados">
-        <a href="/apps integrados"><button>apps</button></a>
+        <a class="abrir" href="/apps integrados">apps</a>
     </div>
 
     <div class="container">
-        <img src="https://i.ibb.co/2gFhcXf/engrenagem.png" style="right: 150px; top: 2px; position: absolute">
-        <img src="https://i.ibb.co/BN1dXb3/cone.png" style="right: 190px; top: 2px; position: absolute">
-        <img src="https://i.ibb.co/BPYqMk8/lupa.png" style="right: 465px; top: 4px; position: absolute; max-height: 20px">
-        <input type="text" placeholder="Digite aqui" style="right: 240px; top: 4px; position: absolute">
+            <img src="https://i.ibb.co/2gFhcXf/engrenagem.png" style="right: 80px; top: 2px; position: absolute">
+            <img src="https://i.ibb.co/BN1dXb3/cone.png" style="right: 120px; top: 2px; position: absolute">
+            <img src="https://i.ibb.co/BPYqMk8/lupa.png" style="right: 410px; top: 4px; position: absolute; max-height: 20px">
+            <input type="text" placeholder="Digite aqui" style="right: 180px; top: 4px; position: absolute">
     </div>
-    <div class="botao-entrar">
-        <button>Entrar</button>
-    </div>
-
-    <div class="botao-cadastrar">
-        <button>Cadastrar</button>
-        </div>
-
+    <div class="foto_perfil">
+        <img src="https://i.ibb.co/k5QxJM0/foto-de-perfil-removebg-preview.png" style="right: 5px; top: -4px; max-width: 55px; max-height: 50px; position: absolute">
 
     
 </body>
