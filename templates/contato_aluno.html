@@ -104,6 +104,43 @@
             position: relative;
         }
 
+        .anotacao{
+            top: 430px;
+            left: 400px;
+            position:absolute;
+            background-color:blue;
+        }
+
+        .adicionar{
+            position: absolute;
+            top: 425px;
+            left: 440px;
+            border: 2px;
+            border-radius: 4px;
+            display: inline-block;
+            cursor: none;
+            font-family: Verdana;
+            font-weight: bold;
+            font-size: 16px;
+            text-decoration: none;
+            background-color: green;
+            width: 107px;
+            height: 30px;
+        }
+
+
+        .abrir {
+            border: 1px solid #25692A;
+            border-radius: 4px;
+            display: inline-block;
+            cursor: pointer;
+            font-family: Verdana;
+            font-weight: bold;
+            font-size: 13px;
+            padding: 6px 10px;
+            text-decoration: none;
+
+
 
 
     </style>
@@ -111,6 +148,8 @@
 
 </head>
 <body>
+
+    <img src="https://i.ibb.co/V98L7P6/Design-sem-nome-removebg-preview.png" style="top:-20px; left:120px; position:absolute; width: 80px; height: 65px" title="salvo na nuvem" alt="Design-sem-nome-removebg-preview" border="0">
 
     <div class="logo">
         <img src="https://i.ibb.co/WKRmB5w/logotipo2.png" alt="logotipo2" border="0">
@@ -138,14 +177,18 @@
 
     <div class="foto_perfil">
         <img src="https://i.ibb.co/k5QxJM0/foto-de-perfil-removebg-preview.png" style="right: 5px; top: -4px; max-width: 55px; max-height: 50px; position: absolute">
+    </div>
 
     <label><p style="top: 90px; left:20px; position: absolute">Anotações</p>
     <form>
-    <textarea name="Digite suas anotações" placeholder="Digite suas anotações" minlength="40" maxlength="5000" rows="20" cols="130" style="top: 130px; left: 20px; position: absolute"></textarea>
-    </form>
-    
-    <button>Enviar</button>
+        <textarea name="Digite suas anotações" placeholder="Digite suas anotações" minlength="40" maxlength="5000" rows="20" cols="130" style="top: 130px; left: 20px; position: absolute"></textarea>
+        
 
+    </form>
+    <div class="adicionar">
+        <a class="abrir">Criar anotação</a>
+    </div>
+    
 
 
     <img src="https://i.ibb.co/QpjqRtd/facebook-icon-removebg-preview.png"  style="top: 1098px; left: 415px; position: absolute; width: 40px; height: 40px">
